@@ -6,6 +6,11 @@ body{
     background-color: #eeeeee;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 main{
     margin: 2rem 8rem;
 }
@@ -18,9 +23,23 @@ main{
     display: flex;
     margin-left: auto;
 }
+
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
 li{
     display: inline;
+    padding: 1.25rem;
+
 }
+ul {
+    list-style-type: none;
+   
+    }
+
 
 #above{
      margin: auto;
@@ -44,3 +63,21 @@ h3{
     background-color:#f1c40f ;
     color: black;
 }
+.icon{
+    color: #f1c40f;
+    font-size: 3rem;
+}
+
+#pricing{
+    display: flex;
+}
+.more-info > #special{
+  margin-left: 3rem;
+}
+#video{
+    display: block;
+    margin: auto;
+    
+}
+
+
