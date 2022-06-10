@@ -1,10 +1,31 @@
 
+*{
+    margin: auto;
+}
 body{
     background-color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+main{
+    margin: 2rem 8rem;
+}
+
 #header{
     display: flex;
+    
 }
 #hehe{
+    display: flex;
+    margin-left: auto;
+}
+li{
+    display: inline;
+}
+
+#above{
+    margin: 2rem auto;
+    text-align: center;
+}
+.grid{
     display: flex;
 }
