@@ -23,9 +23,24 @@ li{
 }
 
 #above{
-    margin: 2rem auto;
+     margin: auto;
     text-align: center;
 }
 .grid{
     display: flex;
+}
+h3{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#email{
+    margin-bottom: 10px;
+    width: 300px;
+}
+#submit{
+    margin-bottom: 10px;
+    width: 200px;
+    height:30px;
+    background-color:#f1c40f ;
+    color: black;
 }
